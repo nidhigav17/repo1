@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce App</title>
+  <!-- Bootstrap CSS Files -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- external CSS file link -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- external JavaScript file link -->
+  <script src="header_footer.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <!-------------- Start header  ----------->
+    <div id="header-placeholder"></div>
+    <!-------------- End header  -------------->
+  </header>
+
+  <!---------------- Start home page -------------------->
+  <main>
+    <section id="hero-section">
+      <div id="banner-img">
+        <div class="home ">
+          <h1><img src="images/logo1 (1).jpg" alt="img" width="150px"></h1>
+          <p class="para">Clothes that talk on behalf of you.Something for every occassion.</p>
+        </div>
+      </div>
+    </section>
+
+    <!---------------- Start Caresoal Slider ------------------------>
+    <section>
+      <div class="featured-product">
+        <div class="card text-center">
+          <h1 class="py-2"> Featured Products</h1>
+          <!------------ Start product Corousel for Large screens  ---------------->
+          <!--------------- first slide ------------>
+          <div id="largeCorousel" class="carousel slide corousel-dark d-none d-lg-block" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/817S2-D18WL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Pink Dress</h5>
+                      <span class="price">$50</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="cartpage.html" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/71NCBXev2YL._SX569_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Black Shirt</h5>
+                      <span class="price">$80</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="cartpage.html" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/913377TChwL._SX569_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Blue Jeans</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="cartpage.html" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/510SGdMK0BL._SX569_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Black Hoodie</h5>
+                      <span class="price">$100</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!------------------ second slide ---------------------->
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/51zS7pyQR5L._SX679_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Shirt</h5>
+                      <span class="price">$60</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/71FZ4+DSjSL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Pink Top</h5>
+                      <span class="price">$90</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/61IOSeGX+GL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Red Dress</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/61-IIBW8ZhL._SX569_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Black Jeans</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!----------------------- Third Slide --------------------->
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/71q3J6PdbFL._SX569_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Blue Hoodie</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/718Up9iCeIL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Blue Dress</h5>
+                      <span class="price">$100</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/517evg9SaxL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Cherry Pant</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/81QiinQvheL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Yellow Dress</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#largeCorousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#largeCorousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span></button>
+          </div>
+          <!------------- End product Corousel for Large Screens --------------->
+
+          <!------------ Start Product Corousel for Medium Screens --------------->
+          <!------------- first slide -------------->
+          <div id="mediumCorousel" class="carousel slide corousel-dark mediumCorousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/817S2-D18WL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Pink Dress</h5>
+                      <span class="price">$50</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/71NCBXev2YL._SX569_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Black Shirt</h5>
+                      <span class="price">$80</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <div class="card-wrapper">
+                    <div class="card product-card">
+                      <div class="image-wapper">
+                        <img src="https://m.media-amazon.com/images/I/913377TChwL._SX569_.jpg" alt="Product image">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Blue Jeans</h5>
+                        <span class="price">$120</span>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. </p>
+                        <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add
+                          to Cart</a>
+                      </div>
+                    </div>
+
+                    <div class="card product-card">
+                      <div class="image-wapper">
+                        <img src="https://m.media-amazon.com/images/I/510SGdMK0BL._SX569_.jpg" alt="Product image">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Black Hoodie</h5>
+                        <span class="price">$100</span>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. </p>
+                        <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add
+                          to Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--------------- Second slide -------------->
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/51zS7pyQR5L._SX679_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Shirt</h5>
+                      <span class="price">$60</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/71FZ4+DSjSL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Pink Top</h5>
+                      <span class="price">$90</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/61IOSeGX+GL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Red Dress</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor s
+                        it amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/61-IIBW8ZhL._SX569_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Black Jeans</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-------------- Third Slide --------------->
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/71q3J6PdbFL._SX569_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Blue Hoodie</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/718Up9iCeIL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Blue Dress</h5>
+                      <span class="price">$100</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/517evg9SaxL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Cherry Pant</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/81QiinQvheL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Yellow Dress</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#mediumCorousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mediumCorousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <!------- End Product Corousel for medium Screens -------------->
+
+          <!------------ Start Product Corousel for Small Screens ---------->
+
+          <div id="smallCorousel" class="carousel slide corousel-dark smallCorousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/817S2-D18WL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Pink Dress</h5>
+                      <span class="price">$50</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/71NCBXev2YL._SX569_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Black Shirt</h5>
+                      <span class="price">$80</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/913377TChwL._SX569_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Blue Jeans</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/510SGdMK0BL._SX569_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Black Hoodie</h5>
+                      <span class="price">$100</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/51zS7pyQR5L._SX679_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Shirt</h5>
+                      <span class="price">$60</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/71FZ4+DSjSL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Pink Top</h5>
+                      <span class="price">$90</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/61IOSeGX+GL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Red Dress</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor s
+                        it amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/61-IIBW8ZhL._SX569_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Black Jeans</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/71q3J6PdbFL._SX569_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Blue Hoodie</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/718Up9iCeIL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Blue Dress</h5>
+                      <span class="price">$100</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/517evg9SaxL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Cherry Pant</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                  <div class="card product-card">
+                    <div class="image-wapper">
+                      <img src="https://m.media-amazon.com/images/I/81QiinQvheL._SY741_.jpg" alt="Product image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Yellow Dress</h5>
+                      <span class="price">$120</span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. </p>
+                      <a href="#" class="btn btn-cart"><i class="fa fa-shopping-cart"></i> Add to
+                        Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#smallCorousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#smallCorousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <!-------- End Product Corousel for Small Screensn ---------->
+    </section>
+  </main>
+
+  <!----------------------- Start footer  -------------->
+  <div id="footer-placeholder"></div>
+  <!----------------- End footer  ------------------->
+
+  <!-- JavaScript to insert header and footer -->
+  <Script>
+    document.getElementById('header-placeholder').innerHTML = headerContent;
+    document.getElementById('footer-placeholder').innerHTML = footerContent;
+  </Script>
+
+  <!-- Bootstrap JavaScript Files -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
